@@ -1,0 +1,36 @@
+--petsimxdupe--
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("psxdupev4","DarkTheme")
+
+
+--maindupepsx--
+local Tab = Window:NewTab("maindupeV4")
+local Section = Tab:NewSection("maindupe")
+
+Section:NewButton("maindupeV4", "bankdupe", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrFeastEz/PSX/main/misc/v1.lua"))()  
+    print("Clicked")
+end)
+Section:NewButton("Gemsdupe", "gems duper", function()
+    print("Clicked")
+end)
+--petsimxdupe--
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("psxdupev4","DarkTheme")
+
+--maindupepsx--
+local Tab = Window:NewTab("maindupeV4")
+local Section = Tab:NewSection("maindupe")
+
+Section:NewButton("maindupeV4", "bankdupe", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrFeastEz/PSX/main/misc/v1.lua"))()  
+    print("Clicked")
+end)
+Section:NewButton("Gemsdupe", "gems duper", function()
+    print("Clicked")
+end)
+
+Section:NewTextBox("TradeScamm", "that is tradescamm ", function(txt)
+	print(txt)
+end)
+
